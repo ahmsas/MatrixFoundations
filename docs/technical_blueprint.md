@@ -19,3 +19,12 @@
 - [ ] Basic operations:  
   - [ ] `matrix_add()`, `matrix_multiply()`.  
   - [ ] Vector norms (L2, infinity).  
+  
+### **LU Decomposition**  
+- [ ] `lu_decompose()` with partial pivoting.  
+  - [ ] Pivot indices stored in `int*`.  
+- [ ] Validation against known results (e.g., Hilbert matrices).  
+
+### **Eigenvalues**  
+- [ ] `power_iteration()` for dominant eigenvalue/vector.  
+  - [ ] Max iterations and tolerance parameters.  
