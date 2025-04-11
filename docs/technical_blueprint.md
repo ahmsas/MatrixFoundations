@@ -28,3 +28,33 @@
 ### **Eigenvalues**  
 - [ ] `power_iteration()` for dominant eigenvalue/vector.  
   - [ ] Max iterations and tolerance parameters.  
+  
+### **Memory Management**  
+- [ ] Manual allocation/free functions:  
+  - [ ] `matrix_create()`, `matrix_free()`.  
+- [ ] No memory leaks (validate via static analysis).  
+
+---  
+
+## **Documentation**  
+- [ ] Function-level comments explaining mathematical logic.  
+- [ ] Proofs in `/docs`:  
+  - [ ] LU existence for invertible matrices.  
+  - [ ] Power iteration convergence criteria.  
+
+---  
+
+## **Project Structure**  
+```  
+src/  
+  ├── matrix.c        # Matrix struct and ops  
+  ├── lu.c            # LU decomposition  
+  └── eigenvalues.c   # Power iteration  
+include/  
+  └── matrix.h        # Public API header  
+tests/  
+  ├── test_matrix.c   # Validation suite  
+  └── test_lu.c  
+docs/  
+  └── proofs/         # Theory documentation  
+```
