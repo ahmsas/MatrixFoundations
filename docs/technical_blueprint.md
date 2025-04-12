@@ -68,3 +68,8 @@ docs/
 2. **Memory Safety**:  
    - All functions must explicitly handle allocation errors.  
    - Write `matrix_free()` to avoid dangling pointers.  
+3. **Numerical Stability**:  
+   - Use pivoting in LU to mitigate division by zero.  
+   - Test with ill-conditioned matrices.  
+4. **Error Handling**:  
+   - Return error codes (e.g., `int` status) for invalid ops.  
