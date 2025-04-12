@@ -58,3 +58,13 @@ tests/
 docs/  
   └── proofs/         # Theory documentation  
 ```
+
+---  
+
+## **Key Reminders**  
+1. **ANSI C Compliance**:  
+   - Avoid `//` comments; use `/* */` only.  
+   - No VLAs, `inline`, or other C99+ features.  
+2. **Memory Safety**:  
+   - All functions must explicitly handle allocation errors.  
+   - Write `matrix_free()` to avoid dangling pointers.  
