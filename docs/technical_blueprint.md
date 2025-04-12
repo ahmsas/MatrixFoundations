@@ -73,3 +73,7 @@ docs/
    - Test with ill-conditioned matrices.  
 4. **Error Handling**:  
    - Return error codes (e.g., `int` status) for invalid ops.  
+
+---  
+
+**Delete this file once the final README is complete.**
