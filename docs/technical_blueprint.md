@@ -13,9 +13,9 @@
 ## **Implementation Checklist**  
 ### **Core Requirements**  
 - [ ] ANSI C-compliant code (no C99+ features).  
-- [ ] `Matrix` struct:  
-  - [ ] Heap-allocated data with `double*`.  
-  - [ ] Row/column counts as `int`.  
+- [x] `Matrix` struct:  
+  - [x] Heap-allocated data with `double*`.  
+  - [x] Row/column counts as `int`.
 - [ ] Basic operations:  
   - [ ] `matrix_add()`, `matrix_multiply()`.  
   - [ ] Vector norms (L2, infinity).  
