@@ -7,4 +7,7 @@ typedef struct Matrix {
     double* data;
 } Matrix;
 
+/* Core matrix operations */
+Matrix* matrix_create(int rows, int cols);
+
 #endif /* MATRIX_H */
