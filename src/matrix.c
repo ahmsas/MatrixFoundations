@@ -16,3 +16,8 @@ Matrix* matrix_create(int rows, int cols) {
     }
     return mat;
 }
+
+void matrix_free(Matrix* mat) {
+    free(mat->data);
+    free(mat);
+}
