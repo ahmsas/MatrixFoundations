@@ -30,8 +30,8 @@
   - [ ] Max iterations and tolerance parameters.  
   
 ### **Memory Management**  
-- [ ] Manual allocation/free functions:  
-  - [ ] `matrix_create()`, `matrix_free()`.  
+- [x] Manual allocation/free functions:  
+  - [x] `matrix_create()`, `matrix_free()`.  
 - [ ] No memory leaks (validate via static analysis).  
 
 ---  
