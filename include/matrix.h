@@ -9,5 +9,6 @@ typedef struct Matrix {
 
 /* Core matrix operations */
 Matrix* matrix_create(int rows, int cols);
+void matrix_free(Matrix* mat);
 
 #endif /* MATRIX_H */
