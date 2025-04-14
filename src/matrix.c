@@ -18,6 +18,8 @@ Matrix* matrix_create(int rows, int cols) {
 }
 
 void matrix_free(Matrix* mat) {
-    free(mat->data);
-    free(mat);
+    if (mat) {
+        free(mat->data);
+        free(mat);
+    }
 }
