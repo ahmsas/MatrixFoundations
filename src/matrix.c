@@ -10,5 +10,9 @@ Matrix* matrix_create(int rows, int cols) {
     mat->cols = cols;
     mat->data = (double*)malloc(rows * cols * sizeof(double));
     
+    if (!mat->data) {
+        free(mat);
+        return NULL;
+    }
     return mat;
 }
