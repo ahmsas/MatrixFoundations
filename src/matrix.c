@@ -23,3 +23,6 @@ void matrix_free(Matrix* mat) {
         free(mat);
     }
 }
+
+int matrix_add(const Matrix* A, const Matrix* B, Matrix* result) {
+}
