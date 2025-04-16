@@ -25,4 +25,5 @@ void matrix_free(Matrix* mat) {
 }
 
 int matrix_add(const Matrix* A, const Matrix* B, Matrix* result) {
+    return 0;
 }
