@@ -26,6 +26,7 @@ void matrix_free(Matrix* mat) {
 
 int matrix_add(const Matrix* A, const Matrix* B, Matrix* result) {
     if (!A || !B || !result) return 1;
+    if (A->rows != B->rows) return 2;
     
     int total = A->rows * A->cols;
     for (int i = 0; i < total; i++) {
